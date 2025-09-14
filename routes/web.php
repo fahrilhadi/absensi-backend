@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::middleware('auth')->group(function () {
-    Route::get('/dashboard', function () {
+    Route::get('dashboard', function () {
         return view('pages.dashboard', ['type_menu' => 'dashboard']);
     })->name('dashboard');
 });

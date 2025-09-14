@@ -1,9 +1,8 @@
 <footer class="main-footer">
     <div class="footer-left">
-        Copyright &copy; 2018 <div class="bullet"></div> Design By <a href="https://nauval.in/">Muhamad
-            Nauval Azhar</a>
+        Copyright &copy; 2025 <div class="bullet"></div> Crafted by <a href="https://fahrilhadi.com/">Fahril Hadi</a>
     </div>
     <div class="footer-right">
-        2.3.0
+        <a href="https://github.com/fahrilhadi">Github</a>
     </div>
 </footer>

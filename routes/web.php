@@ -10,4 +10,6 @@ Route::middleware('auth')->group(function () {
     Route::get('dashboard', function () {
         return view('pages.dashboard', ['type_menu' => 'dashboard']);
     })->name('dashboard');
+
+    Route::resource('users', App\Http\Controllers\UserController::class);
 });

@@ -16,7 +16,7 @@
         <ul class="sidebar-menu">
             <li class="menu-header">User Management</li>
             <li class="nav-item dropdown {{ $type_menu === 'users' ? 'active' : '' }}">
-                <a href="#"
+                <a href="{{ route('users.index') }}"
                     class="nav-link"><i class="far fa-user"></i><span>Users</span></a>
             </li>
         </ul>
